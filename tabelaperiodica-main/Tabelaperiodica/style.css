@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #141414;
+}
+.container{
+  width: 90vw;
+}
+table {
+  border-collapse: separate;
+  width: 90%;
+  margin: 0 auto;
+}
+
+caption{
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+th{
+  font-size: 12px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+  line-height: 40px;
+}
+
+tr{
+  display: flex;
+  justify-content: space-between;
+}
+
+td{
+  width: 55px;
+  height: 55px;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  line-height: 10px;
+  border-radius: 5px;
+  flex-direction: column;
+  font-size: 10px;
+  margin: 1px;
+}
+
+
+.grupo{
+  line-height: 40px;
+  font-size: 12px;
+  font-weight: 800;
+  width: fit-content;
+}
+
+.wrappermodelo {
+  display: flex;
+  
+}
+
+
+.modelo {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: rgb(59, 86, 166);
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  line-height: 15px;
+  font-size: 12px;
+}
+
+
+.numeroatomicomodelo {
+  text-align: right;
+  left: 55px;
+}
+
+.simbolomodelo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.legendamodelo{
+  width: auto;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  align-items:flex-start;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.descricaolegenda{
+  display: flex;
+  align-items: center;
+  line-height: 15px;
+  
+}
+
+
+.numeroatomico {
+  
+  text-align: right;
+  left: 45px;
+}
+
+.simbolo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.gasesnobres{
+  background-color:  #c0ffff;
+}
+.gasesnobres:hover{
+  background-color:  #69fafa;
+}
+
+.metaisalcalinos{
+  background-color: #ff6666;
+}
+
+.metaisalcalinos:hover{
+  background-color: #fd3333;
+}
+
+.metais_alcalino_terrosos{
+  background-color: #ffdead;
+}
+.metais_alcalino_terrosos:hover{
+  background-color: #fdcc83;
+}
+
+.semi_metais{
+  background-color:#cccc99 ;
+}
+
+.semi_metais:hover{
+  background-color:#888849 ;
+}
+
+.nao_metal{
+  background-color: #a1ffc3;
+}
+
+.nao_metal:hover{
+  background-color: #69fda0;
+}
+
+.diatomico_nao_metal{
+  background-color: #e7ff8f;
+}
+
+.diatomico_nao_metal:hover{
+  background-color: #d4fc45;
+  
+}
+
+.metais_pos_transicao{
+  background-color: #cccccc;
+}
+
+.metais_pos_transicao:hover{
+  background-color: #8d8b8b;
+}
+
+.metais_em_transicao{
+  background-color: #ffc0c0;
+}
+.metais_em_transicao:hover{
+  background-color: #fa9d9d;
+}
+
+.lantanideos{
+  background-color: #ffbfff;
+}
+
+.lantanideos:hover{
+  background-color: #fe93fe;
+}
+
+.actinideos{
+  background-color: #ff99cc;
+}
+
+.actinideos:hover{
+  background-color: #ff6eb6;
+}
+
+.desconhecidas{
+  background-color: #e8e8e8;
+}
+
+.desconhecidas:hover{
+  background-color: #b3b0b0;
+}
+
+.table2{
+  display: flex;
+  justify-content: end;
+  
+}
+
+.simbolo:hover{
+  font-size: 30px;
+}
+
+
+.elemento:hover{
+  transform: scale(1.2);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  line-height: 15px;
+}
+.containerlegenda_tabela{
+  height: auto;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 10px 20px 10px;
+  flex-shrink: inherit;
+}
+.legenda_tabela{
+  padding:10px; 
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  width: 70px;
+  height: auto;
+  text-align:center;
+  flex-direction: column;
+}
